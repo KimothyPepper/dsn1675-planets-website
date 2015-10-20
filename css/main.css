@@ -17,6 +17,9 @@
 *,*::before,*::after {
   box-sizing:inherit;
 }
+header {
+  background-color: #cccccc;
+}
 body {
   margin: 0;
 }
@@ -29,4 +32,52 @@ body {
 nav li{
   display: inline-block;
   padding-top: 1em;
+}
+
+@media only screen and (min-width: 15em) {
+
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+  nav li {
+    display: block;
+    text-align: left;
+    padding:0;
+    margin:0;
+  }
+
+  nav a {
+    text-decoration: none;
+  }
+
+  ul {
+    padding:0;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 25em) {
+
+  nav li{
+    display: inline-block;
+    padding-top: 1em;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 43em) {
+    ul {
+      text-align: left;
+      padding-left: 5em;
+    }
+  }
+
 }
