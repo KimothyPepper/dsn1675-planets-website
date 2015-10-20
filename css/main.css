@@ -52,6 +52,7 @@ nav li{
 
   nav a {
     text-decoration: none;
+      color: blue;
   }
 
   ul {
@@ -73,10 +74,19 @@ nav li{
     text-align: center;
   }
 
+  nav a {
+    text-decoration: none;
+      color: blue;
+  }
+
   @media only screen and (min-width: 43em) {
     ul {
       text-align: left;
       padding-left: 5em;
+    }
+    nav a {
+      text-decoration: none;
+      color: blue;
     }
   }
 
