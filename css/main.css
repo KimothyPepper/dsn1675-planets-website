@@ -23,6 +23,37 @@ header {
   background-color: #cccccc;
 }
 
+header li {
+  padding:1em;
+}
+.gray {
+  background-color: #eeeeee;
+}
+
+.darkgray {
+  background-color: #e2e2e2
+}
+
+
+a {
+  color:#1379e5;
+}
+
+header li:hover {
+  background-color: #1579db;
+  padding:1em;
+
+}
+
+header a:hover {
+  color: white;
+}
+
+.banner {
+  background-color: #e2e2e2;
+  padding: 1em;
+}
+
 ul {
   margin:0;
 }
@@ -81,6 +112,14 @@ footer {
   nav li{
     display: inline-block;
     padding-top: 1em;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  footer ul {
+    text-align: left;
   }
 
   ul {

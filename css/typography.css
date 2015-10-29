@@ -8,8 +8,26 @@ html {
   line-height: 1.3;
 }
 
+@media only screen and (min-width: 60em) {
+   html {
+     font-size: 110%;
+   }
+}
+
+@media only screen and (min-width: 90em) {
+   html {
+     font-size: 120%;
+   }
+}
+@media only screen and (min-width: 120em) {
+   html {
+     font-size: 130%;
+   }
+}
+
 a {
   background-color: transparent;
+
 }
 
 sub, sup {
@@ -93,7 +111,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 0 1.5rem;
+  margin: 0 0  1.5rem;
 }
 
 .yotta {
@@ -119,6 +137,8 @@ h2, .peta {
 h3, .tera {
   font-size: 1.4238rem;
   line-height: 1.0535;
+  text-align: left;
+
 }
 
 h4, .giga {
