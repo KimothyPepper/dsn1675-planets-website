@@ -10,7 +10,10 @@
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
     text-size-adjust:100%;
-    font-family: sans-serif;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    type-scale: 1.125;
   }
 
 *,*::before,*::after {
@@ -19,8 +22,17 @@
 header {
   background-color: #cccccc;
 }
+
+ul {
+  margin:0;
+}
+
 body {
   margin: 0;
+}
+
+dd {
+  margin:0;
 }
 
 .img-flex {
@@ -32,7 +44,9 @@ nav li{
   display: inline-block;
   padding-top: 1em;
 }
-
+footer {
+  background-color: #cccccc;
+}
 @media only screen and (min-width: 15em) {
 
   h1 {
