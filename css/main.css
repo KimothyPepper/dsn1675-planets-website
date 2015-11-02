@@ -31,8 +31,8 @@ header {
   background-color: #e2e2e2
 }
 
-a {
-  color:#1379e5;
+.toplink {
+  list-style:disc;
 }
 
 header li:hover {
@@ -49,22 +49,14 @@ header a:hover {
   padding: 1em;
 }
 
-nav li{
-  display: inline-block;
-  padding-top: 1em;
-}
 footer {
   background-color: #cccccc;
 }
 @media only screen and (min-width: 15em) {
 
-  h1 {
-    text-align: center;
-  }
-
-  h3 {
-    text-align: center;
-  }
+ h3 {
+   text-align: center;
+ }
   nav li {
     display: block;
     text-align: left;
@@ -72,7 +64,7 @@ footer {
     margin:0;
   }
 
-  nav a {
+  a {
     text-decoration: none;
       color: blue;
   }
@@ -81,15 +73,11 @@ footer {
     padding:0;
   }
 
-  p {
-    font-size: 0.9rem;
-  }
 }
 @media only screen and (min-width: 25em) {
 
   nav li{
     display: inline-block;
-    padding-top: 1em;
   }
 
   h3 {
